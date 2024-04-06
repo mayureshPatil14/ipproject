@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 800px ;
+            background-image: url(Pillai-Campus.jpg);
+            display: flex;
+            justify-content: center;
+            overflow-y: hidden;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            color: #055200;
+            transform: translateY(300px);
+            border-radius: 20px;
+            border: solid 2px;
+            /* backdrop-filter: blur(5px); */
+            background-color: bisque;
+            font-style: italic;
+        }
+        .box h1{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            text-size-adjust: 30px;
+            color: deepskyblue;
+        }
+        .box .username{
+            padding: 10px;
+            width: 100%;
+        }
+        .username input{
+            width: 90%;
+            height: 25px;
+            border-radius: 15px;
+            text-align: center;
+            
+            
+        }
+        .box .pass{
+            padding: 10px;
+            width: 100%;
+        }
+        .pass input{
+            height: 25px;
+            width:90%;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .pass input ::placeholder{
+            padding-left: 20px;
+        }
+        .box .submit{
+            padding: 10px;
+        }
+        .submit button{
+            width: 100%;
+            height: 30px;
+            border-radius: 15px;
+            background-color: rgb(241, 241, 180);
+            
+        }
+        .submit button:hover{
+            animation: ballu 3s infinite;
+            transition: 2s;
+
+        }
+
+        @keyframes ballu{
+            0%{
+                
+                background-color: rgb(239, 239, 116);
+            }
+            50%{
+                
+                background-color: rgb(253, 253, 64);
+            }
+            100%{
+                background-color: rgb(249, 249, 31);
+
+            }
+        }
+
+        /* .submit button{
+            animation;
+        }
+        */
+        .signin{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            color: silver;
+        }
+        .signin a{
+            color: grey
+        }
+        #newacc {
+            
+            font-style: italic;
+            padding-left: 130px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <div>
+            <h1>Login</h1>
+        </div>  
+        <div class="username">
+            <input id="email" type="email" placeholder="email">
+        </div>  
+        <div class="pass">
+            <input id="pass" type="password" placeholder="password">
+        </div>   
+        <div class="submit">
+            <button id="btn" type="submit">login</button>
+        </div>
+        <div class="signin">
+            <label id="newacc" for="sign">New account ? :</label>
+            <a href="signin.html">sign in</a>
+        </div>
+        
+    </div>
+</div>
+<script src="lg.js"></script>
+    
+</body>
+</html>

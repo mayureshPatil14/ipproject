@@ -1,0 +1,125 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.container{
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0; /* Optional if you want to remove top padding */
+    
+    margin: 0px 0px 0px 0px;
+}
+
+.dsa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousal-item{
+    height: 300px;
+    width: 300px;
+}
+
+
+.navbar{
+    background-color: #aad69c;
+    height: 90px;
+    width: 100vw;
+    
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    height: 500px;
+
+
+}
+.heading h1{
+    transform: translateY(-70px);
+}
+.head2{
+    height: 300px;
+    background-color: yellow;
+}
+.buttons{
+    position: absolute;
+    transform: translateY(100px);
+   display: flex;
+    gap: 100px;
+
+    
+    
+    
+    
+}
+.buttons button{
+    width: 150px;
+    border-radius: 20px;
+    height: 30px;
+    box-shadow: 10px 10px 10px;
+
+}
+.heading h1{
+    font-size: 70px;
+}
+.content_buttons .dsa{
+    background-color: pink;
+    height: 777px;
+    
+}
+.garbage{
+    height: 184px;
+    background-color: crimson;
+}
+.buttons button:hover{
+    transform: scale(1.2);
+    /* transition-delay: 1s; */
+    transition-behavior: smooth;
+}
+.content_buttons .lang{
+    background-color: violet;
+    height: 777px;
+    
+}
+.content_buttons .mern{
+    background-color: grey;
+    height: 777px;
+    
+}
+.container .navbar{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color:  #aad69c;
+    gap: 30px;
+}
+.navbar .cont{
+    display: flex;
+    gap: 30px;
+    padding-left: 800px;
+    padding-top: 30px;
+    font-size: 22px;
+}
+.cont a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #294B29;
+}
+
+
